@@ -23,28 +23,30 @@ For other frameworks and custom Python code, the agent exposes a set of [APIs](/
 
 The following Python versions are supported:
 
-* 3.8
-* 3.9
-* 3.10
-* 3.11
-* 3.12
 * 3.13
+* 3.12
+* 3.11
+* 3.10
+* 3.9
+* 3.8
+* 3.7 {applies_to}`product: removed 7.0.0`
+* 3.6 {applies_to}`product: removed 7.0.0`
 
 
 ### Django [supported-django]
 
 We support these Django versions:
 
-* 1.11
-* 2.0
-* 2.1
-* 2.2
-* 3.0
-* 3.1
-* 3.2
-* 4.0
-* 4.2
 * 5.0
+* 4.2
+* 4.0
+* 3.2
+* 3.1
+* 3.0
+* 2.2
+* 2.1
+* 2.0
+* 1.11
 
 For upcoming Django versions, we generally aim to ensure compatibility starting with the first Release Candidate.
 
@@ -58,16 +60,16 @@ we currently don’t support Django running in ASGI mode.
 
 We support these Flask versions:
 
-* 0.10 (Deprecated)
-* 0.11 (Deprecated)
-* 0.12 (Deprecated)
-* 1.0
-* 1.1
-* 2.0
-* 2.1
-* 2.2
-* 2.3
 * 3.0
+* 2.3
+* 2.2
+* 2.1
+* 2.0
+* 1.1
+* 1.0
+* 0.12 {applies_to}`product: deprecated`
+* 0.11 {applies_to}`product: deprecated`
+* 0.10 {applies_to}`product: deprecated`
 
 
 ### Aiohttp Server [supported-aiohttp]
@@ -119,8 +121,8 @@ The Python APM agent comes with automatic instrumentation of various 3rd party m
 
 We support these Celery versions:
 
-* 4.x (deprecated)
 * 5.x
+* 4.x {applies_to}`product: deprecated`
 
 Celery tasks will be recorded automatically with Django and Flask only.
 
